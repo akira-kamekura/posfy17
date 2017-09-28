@@ -17,7 +17,16 @@ body {
 <div>あああ</div>
 
 <input type="text" name="hoge" value="text覚えた！">
-<input type="button" name="hoge1" value="button覚えた！">
+<input type="button" name="hoge1" value="button覚えた！"onclick="pushButton();">
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC434MBbhe6MuEUVmTwJsCnp-jwL7grBYI&callback=init" async defer></script>
+
+<script type="text/javascript">
+	function pushButton(){
+		alert("ボタンが押されたよ！");
+	}
+</script>
 
 
 </body>
